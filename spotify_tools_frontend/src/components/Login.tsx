@@ -43,7 +43,7 @@ class Login extends React.Component<IProps, IState> {
         } else {
             return (
                 <p>
-                    <button className="btn btn-lg btn-success">
+                    <button className="btn btn-lg btn-success" onClick={()=> window.open("http://127.0.0.1:5000/", "oauth", "location=0,status=0,width=780,height=820")}>
                         <i className="bi bi-spotify" /> Log in with Spotify
                     </button>
                 </p>
