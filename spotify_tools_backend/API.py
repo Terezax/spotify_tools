@@ -158,7 +158,7 @@ def getComparePlaylists():
     return resp
 
 @app.route('/playlists/<pid>/tracks/<trackid>', methods = ['POST'])
-def postTrackToPlaylist():
+def postTrackToPlaylist(pid, trackid):
     return '', 201
 
 
